@@ -197,13 +197,29 @@ fbq('track','PageView');
             </div>
 
             <!-- VSL Video - Mux Player -->
-            <div class="vsl-container" id="vslContainer">
-                <script src="https://player-vz-8d04573e-110.tv.pandavideo.com.br/embed/?"></script>
-                <mux-player playback-id="v=266e410d-48d4-4918-a61b-817b999d7864" stream-type="on-demand" controls
-                    preload="auto" accent-color="#D2760A" metadata-video-id="supersim-seguro-prestamista"
-                    metadata-video-title="Seguro Prestamista - SuperSim"
-                    style="width:100%;aspect-ratio:16/9;border-radius:12px;--media-object-fit:cover;"></mux-player>
-            </div>
+            <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Panda</title>
+</head>
+<body>
+
+<div style="position:relative;padding-top:56.25%;width:100%;">
+    <iframe
+        id="panda-player"
+        src="https://player-vz-8d04573e-110.tv.pandavideo.com.br/embed/?v=2b9f7f1d-6ecc-42c9-908b-6f63b31454dc"
+        style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<script src="https://player.pandavideo.com.br/embed.js"></script>
+
+</body>
+</html>
 
             <div class="insurance-section">
                 <div class="insurance-header">
